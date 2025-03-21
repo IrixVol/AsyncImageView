@@ -1,4 +1,4 @@
 # AsyncImageView
 SwiftUI Custom AsyncImageView Example
 
-![AsynImageScreen](https://github.com/user-attachments/assets/a3be932f-4fd0-4537-8edc-604b4ba18998)
+![AsynImageScreen](https://github.com/user-attachments/assets/ab7189d1-e7cb-43d3-b969-0045f39cea6c)
