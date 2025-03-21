@@ -1,3 +1,4 @@
 # AsyncImageView
 SwiftUI Custom AsyncImageView Example
-![Uploading Simulator Screenshot - iPhone 16 - 18.1 - 2025-03-21 at 12.06.19.png…]()
+
+![AsynImageScreen](https://github.com/user-attachments/assets/a3be932f-4fd0-4537-8edc-604b4ba18998)
