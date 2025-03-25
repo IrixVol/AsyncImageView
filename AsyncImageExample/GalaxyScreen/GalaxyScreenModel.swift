@@ -43,7 +43,7 @@ final class GalaxyScreenModel: ObservableObject {
     
     func mapViewModel(_ item: ItemApiModel) -> ItemViewModel {
         .init(
-            url: item.url,
+            url: item.url ?? "",
             title: item.title,
             date: dateFormatter.date(from: item.date),
             imageModel: .init(
@@ -51,9 +51,7 @@ final class GalaxyScreenModel: ObservableObject {
                 aspectRatio: 16 / 9,
                 contentMode: .fill,
                 getImage: { [weak self] in
-                    print(item.url)
-                    return await self?.service.downloadImage(link: item.url)
-                    
+                    await self?.service.downloadImage(link: item.url ?? "")
                 }
             )
         )
